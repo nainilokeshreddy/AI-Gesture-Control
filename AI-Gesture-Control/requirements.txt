@@ -1,0 +1,13 @@
+# Core Computer Vision
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.26.0
+pillow>=10.0.0
+
+# Desktop Control & Automation
+pyautogui>=0.9.54
+
+# macOS Accessibility & Display Support
+pyobjc-core>=10.0; sys_platform == 'darwin'
+pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'
+pyobjc-framework-Quartz>=10.0; sys_platform == 'darwin'
